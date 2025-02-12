@@ -27,6 +27,27 @@ A clusterização com **K-Means** possibilita a criação de grupos homogêneos 
 ✔️ Visualização interativa dos clusters  
 ✔️ Previsão de novos agrupamentos com base nos dados inseridos  
 
+## 📂 Teste com o Dataset `dados_test.csv`  
+
+Para facilitar os testes, um dataset chamado **`dados_test.csv`** foi disponibilizado.  
+
+### 🔹 Como Usar  
+
+1️⃣ **Baixe o dataset**  
+   - O arquivo `dados_test.csv` está disponível no repositório do projeto.  
+
+2️⃣ **Acesse a aplicação**  
+   - Clique no link: [Previsão K-Means Marketing](https://previsao-kmeans-marketing-jgt5avx75hj9j4gtmuawmr.streamlit.app/)  
+
+3️⃣ **Faça o upload do dataset**  
+   - Na interface da aplicação, clique no botão para selecionar e enviar o arquivo `dados_test.csv`.  
+
+4️⃣ **Visualize os clusters**  
+   - Após o upload, a aplicação processará os dados e exibirá os agrupamentos.  
+
+5️⃣ **Explore os insights**  
+   - Utilize as visualizações geradas para analisar os padrões dos grupos identificados.
+
 ## 📌 Como Funciona  
 
 1. **Coleta de Dados:** O modelo analisa um conjunto de dados sobre usuários e seus interesses.  

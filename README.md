@@ -1,4 +1,4 @@
-# 📊 Previsão K-Means Marketing  
+## 📊 Previsão K-Means Marketing  
 
 Este projeto utiliza o algoritmo de clusterização **K-Means** para identificar e prever agrupamentos de interesses dos usuários, permitindo um direcionamento mais eficaz em campanhas de marketing.  
 
@@ -18,37 +18,37 @@ A clusterização com **K-Means** possibilita a criação de grupos homogêneos 
 - **Python** 🐍  
 - **Scikit-learn** 🤖  
 - **Pandas** 📊  
-- **Streamlit** 🎨 (Interface interativa)  
+- **Streamlit** 🎨  
 
 ## 🎯 Funcionalidades  
 
-✔️ Análise de padrões de comportamento dos usuários  
-✔️ Identificação de agrupamentos distintos usando K-Means  
-✔️ Visualização interativa dos clusters  
-✔️ Previsão de novos agrupamentos com base nos dados inseridos  
+- Análise de padrões de comportamento dos usuários  
+- Identificação de agrupamentos distintos usando K-Means  
+- Visualização interativa dos clusters  
+- Previsão de novos agrupamentos com base nos dados inseridos  
 
 ## 📂 Teste com o Dataset `dados_test.csv`  
 
-Para facilitar os testes, um dataset chamado **`dados_test.csv`** foi disponibilizado.  
+Para facilitar o uso, um dataset chamado **`dados_test.csv`** foi disponibilizado.  
 
-### 🔹 Como Usar  
+### Testando 
 
-1️⃣ **Baixe o dataset**  
+1 **Baixe o dataset**  
    - O arquivo `dados_test.csv` está disponível no repositório do projeto.  
 
-2️⃣ **Acesse a aplicação**  
+2 **Acesse a aplicação**  
    - Clique no link: [Previsão K-Means Marketing](https://previsao-kmeans-marketing-jgt5avx75hj9j4gtmuawmr.streamlit.app/)  
 
-3️⃣ **Faça o upload do dataset**  
+3 **Faça o upload do dataset**  
    - Na interface da aplicação, clique no botão para selecionar e enviar o arquivo `dados_test.csv`.  
 
-4️⃣ **Visualize os clusters**  
+4 **Visualize os clusters**  
    - Após o upload, a aplicação processará os dados e exibirá os agrupamentos.  
 
-5️⃣ **Explore os insights**  
+5 **Explore os insights**  
    - Utilize as visualizações geradas para analisar os padrões dos grupos identificados.
 
-## 📌 Como Funciona  
+##  📌 Como Funciona  
 
 1. **Coleta de Dados:** O modelo analisa um conjunto de dados sobre usuários e seus interesses.  
 2. **Clusterização:** O algoritmo K-Means agrupa os usuários em segmentos com características similares.  

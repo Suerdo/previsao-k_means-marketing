@@ -1,58 +1,79 @@
-## 📊 Previsão K-Means Marketing  
+# Previsão K-Means para Segmentação de Mercado
 
-Este projeto utiliza o algoritmo de clusterização **K-Means** para identificar e prever agrupamentos de interesses dos usuários, permitindo um direcionamento mais eficaz em campanhas de marketing.  
+Este projeto utiliza o algoritmo de clusterização K-Means para segmentar clientes com base em seus padrões de comportamento, proporcionando insights para estratégias de marketing mais eficientes.
 
-## 🚀 Acesso ao Projeto  
+## Acesso à Aplicação
 
-Para visualizar a aplicação em funcionamento, acesse o link abaixo:  
+Acesse a aplicação online para testar a segmentação de dados:
 
-🔗 [Previsão K-Means Marketing](https://previsao-kmeans-marketing-jgt5avx75hj9j4gtmuawmr.streamlit.app/)  
+[Previsão K-Means Marketing](https://previsao-kmeans-marketing-jgt5avx75hj9j4gtmuawmr.streamlit.app/)
 
-## 🧠 Sobre o Projeto  
+## Visão Geral
 
-O objetivo deste projeto é aplicar **aprendizado de máquina** para segmentação de usuários com base em seus padrões de comportamento.  
-A clusterização com **K-Means** possibilita a criação de grupos homogêneos de consumidores, otimizando a personalização de campanhas de marketing e aumentando sua eficácia.  
+O projeto agrupa clientes com características semelhantes para otimizar campanhas de marketing e personalizar abordagens comerciais. Com isso, empresas podem tomar decisões mais assertivas ao identificar padrões de consumo e preferências do público.
 
-## 🛠️ Tecnologias Utilizadas  
+## Tecnologias Utilizadas
 
-- **Python** 🐍  
-- **Scikit-learn** 🤖  
-- **Pandas** 📊  
-- **Streamlit** 🎨  
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Streamlit
 
-## 🎯 Funcionalidades  
+## Funcionalidades
 
-- Análise de padrões de comportamento dos usuários  
-- Identificação de agrupamentos distintos usando K-Means  
-- Visualização interativa dos clusters  
-- Previsão de novos agrupamentos com base nos dados inseridos  
+- Identificação de perfis de consumidores
+- Segmentação automática via K-Means
+- Visualização gráfica interativa dos grupos
+- Upload de dados para análise em tempo real
 
-## 📂 Teste com o Dataset `dados_test.csv`  
+## Como Testar a Aplicação
 
-Para facilitar o uso, um dataset chamado **`dados_test.csv`** foi disponibilizado.  
+Para validar o funcionamento do modelo, utilize o dataset de exemplo `dados_test.csv`.
 
-### Testando 
+1. Faça o download do arquivo no repositório
+2. Acesse a aplicação
+3. Realize o upload do arquivo
+4. Analise os agrupamentos gerados
 
-1 **Baixe o dataset**  
-   - O arquivo `dados_test.csv` está disponível no repositório do projeto.  
+## Executando Localmente
 
-2 **Acesse a aplicação**  
-   - Clique no link: [Previsão K-Means Marketing](https://previsao-kmeans-marketing-jgt5avx75hj9j4gtmuawmr.streamlit.app/)  
+Para rodar o projeto em sua máquina:
 
-3 **Faça o upload do dataset**  
-   - Na interface da aplicação, clique no botão para selecionar e enviar o arquivo `dados_test.csv`.  
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/previsao-kmeans-marketing.git
+   cd previsao-kmeans-marketing
+   ```
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Execute a aplicação:
+   ```bash
+   streamlit run src/app.py
+   ```
 
-4 **Visualize os clusters**  
-   - Após o upload, a aplicação processará os dados e exibirá os agrupamentos.  
+Acesse a interface local em `http://localhost:8501/`.
 
-5 **Explore os insights**  
-   - Utilize as visualizações geradas para analisar os padrões dos grupos identificados.
+## Processo de Segmentação
 
-##  📌 Como Funciona  
+O K-Means identifica padrões e agrupa dados de acordo com proximidade matemática entre os pontos. As etapas do processo incluem:
 
-1. **Coleta de Dados:** O modelo analisa um conjunto de dados sobre usuários e seus interesses.  
-2. **Clusterização:** O algoritmo K-Means agrupa os usuários em segmentos com características similares.  
-3. **Previsão:** O sistema permite prever a qual grupo um novo usuário pode pertencer.  
-4. **Insights para Marketing:** A clusterização orienta decisões estratégicas para campanhas personalizadas.  
+1. Escolha do número de clusters (K)
+2. Inicialização dos centróides
+3. Atribuição de pontos aos centróides mais próximos
+4. Reavaliação das posições dos centróides
+5. Repetição até convergência dos agrupamentos
+
+O modelo pode ser ajustado conforme novas análises e necessidades do usuário.
+
+## Como Melhorar a Segmentação
+
+- Testar diferentes valores de K
+- Normalizar dados para melhor distribuição
+- Analisar métricas de avaliação dos clusters
 
 
